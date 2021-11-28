@@ -1,0 +1,52 @@
+@media(min-width: 1400px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+/* Navigation menu styles */
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link .active,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+/* Home section styles */
+.home-section{
+    background-color: #f0f5f9;
+    padding: 150px 0 100px 0;
+}
+
+/* About section styles */
+.about-card__img{
+    width: 80px;
+}
+
+.about-section__card-1{
+    background-color: #FFF2E5;
+}
+.about-section__card-2{
+    background-color: #F8F9FA;
+}
+.about-section__card-3{
+    background-color: #F0F5F9;
+}
+
+/* Features section styles */
+.features__container{
+    background-color: #f0f5f9;
+}
+
+/* Result section styles */
+.result__section-image{
+    width: 80px;
+}
+
