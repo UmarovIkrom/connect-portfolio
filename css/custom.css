@@ -4,6 +4,85 @@
     }
 }
 
+
+/* Overall styles ↓ */
+/* Text colors */
+.text-dark-custom{
+    color: #3a3a47!important;
+}
+.text-grey-custom{
+    color: #5c5c5c!important;
+}
+
+.text-light-grey-custom{
+    color: #818198!important;
+}
+
+.text-dark-blue-custom{
+    color:#383b61!important;
+}
+
+.text-blue-custom{
+    color: #3498db!important;
+}
+
+.text-green-custom{
+    color: #21bf73!important;
+}
+
+/* Background colors */
+.bg-primary-custom{
+    background-color: #f0f5f9!important;
+}
+
+/* Forms and buttons styles */
+.btn {
+    padding: 0 20px;
+    line-height: 38px;
+}
+
+.btn-blue-custom {
+    border: 2px solid #3498db;
+    color: #1d85ca;
+}
+
+.btn-blue-custom:hover {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+.btn-success-custom {
+    border: 2px solid #21bf73;
+    background-color: #21bf73;
+    color: #ffffff;
+}
+
+.btn-success-custom:hover {
+    color: #ffffff;
+    background-color: #06914e;
+}
+    
+/* Form control custom */
+.form-control-custom {
+    color: #222222;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    height: 45px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    background-color: #F0F5F8;
+    outline: none;
+    padding-left: 20px;
+}
+
+/* Font styles */
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Montserrat';
+}
+/* /Overall styles ↑ */
+
+
 /* Navigation menu styles */
 .navbar-brand{
     font-family: 'Montserrat';
@@ -19,9 +98,12 @@
     padding: 10px 20px;
 }
 
+.navbar-light .navbar-nav .nav-link.btn{
+    padding: 0 20px;
+}
+
 /* Home section styles */
 .home-section{
-    background-color: #f0f5f9;
     padding: 150px 0 100px 0;
 }
 
@@ -36,17 +118,32 @@
 .about-section__card-2{
     background-color: #F8F9FA;
 }
-.about-section__card-3{
-    background-color: #F0F5F9;
-}
-
-/* Features section styles */
-.features__container{
-    background-color: #f0f5f9;
-}
 
 /* Result section styles */
 .result__section-image{
     width: 80px;
 }
+
+/* Reviews section styles */
+.reviews__container{
+    padding: 100px 50px;
+}
+
+.carousel-item-img{
+    width: 60px;
+}
+
+/* Pricing section styles */
+.pricing__section-image{
+    width: 120px;
+}
+
+/* Faq section styles */
+.faq__container{
+    padding: 100px 50px;
+}
+.faq-section-p{
+    font-size: 20px;
+}
+
 
